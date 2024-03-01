@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Trang HTML Đầu Tiên</title>
+    </head>
+    <style type="text/css">
+        .container {
+            max-width: 50%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .content {
+            width: 80%;
+            margin: auto;
+        }
+        .title {
+            text-align: center;
+            font-size: 20px;
+            font-weight: 500;
+            margin: 20px 0;
+        }
+        .input_question {
+            width: 50%;
+        }
+        .input_context {
+            width: 20%;
+        }
+    </style>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="title">
+                Post Message
+            </div>
+            <div class="" style="width: 100%; text-align: center;">
+                <label for="messgae">Enter messgae:</label>
+                <input id="messgae" type="text" style="width: 70%;">
+            </div>
+            <div style="text-align: center; font-weight: 500; margin: 10px 0;">
+                Fill any number of questions and answers. (Minimum 2)
+            </div>
+            <div class="block-item">
+                <div style="margin-bottom: 15px">
+                    <label for="question_1">Enter Question 1:</label>
+                    <input id="question_1" class="input_question" type="text" value="Which pizza brand do I like?">
+                    <label for="context_1">Context 1:</label>
+                    <input id="context_1" class="input_context" type="text" value="Dominos">
+                </div>
+                <div style="margin-bottom: 15px">
+                    <label for="question_2">Enter Question 2:</label>
+                    <input id="question_2" class="input_question" type="text" value="What is my apartment number?">
+                    <label for="context_2">Context 2:</label>
+                    <input id="context_2" class="input_context" type="text" value="129">
+                </div>
+                <div style="margin-bottom: 15px">
+                    <label for="question_3">Enter Question 3:</label>
+                    <input id="question_3" class="input_question" type="text">
+                    <label for="context_3">Context 3:</label>
+                    <input id="context_3" class="input_context" type="text">
+                </div>
+                <div style="margin-bottom: 15px">
+                    <label for="question_4">Enter Question 4:</label>
+                    <input id="question_4" class="input_question" type="text">
+                    <label for="context_4">Context 4:</label>
+                    <input id="context_4" class="input_context" type="text">
+                </div>
+                <div style="margin-bottom: 15px">
+                    <label for="question_5">Enter Question 5:</label>
+                    <input id="question_5" class="input_question" type="text">
+                    <label for="context_5">Context 5:</label>
+                    <input id="context_5" class="input_context" type="text">
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <label for="thresold">Enter Thresold (>0 and < Q&A entered):</label>
+                <input id="thresold" type="number" value="2" style="width: 30px;">
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+                <button type="button">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
